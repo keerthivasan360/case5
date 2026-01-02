@@ -1,4 +1,4 @@
-ef register_student(name, email):
+def register_student(name, email):
     if "@" not in email:
         print("Invalid email")
     else:
