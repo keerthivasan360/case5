@@ -1,6 +1,6 @@
 def login(username, password):
     if len(password) < 6:
-        print("Password too short")
+        print("Passwordtoo short")
     elif username == "admin" and password == "admin123":
         print("Login successful")
     else:
